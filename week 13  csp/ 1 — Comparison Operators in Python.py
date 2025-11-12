@@ -40,3 +40,14 @@ print(9 * 3 != 4)
 
 # practice problem :
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+score= int(input("Enter your score: ")) #int becuse its a number!
+if score >= 60:
+    print("You passed the test")
+else:
+    print("You didnt pass foo!")
+
+password = input("Enter your password:")
+if len(password) >= 8 and(char.isdigit() for char in password):
+    print("Password is valid")
+else:
+    print("Password is unavailable")
