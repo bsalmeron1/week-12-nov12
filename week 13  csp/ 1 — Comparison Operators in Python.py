@@ -14,7 +14,7 @@ a = 3
 b = 4
 
 print(a == b)   # False
-print(a != b)   # True
+print(a != b)   # True not equal to
 print(a > b)    # False
 print(a < b)    # True
 print(a >= b)   # False
@@ -26,8 +26,15 @@ print(a <= b)   # True
 7 == 2 * 3 + 1
 8 != 8
 4 <= 2 + 2
-
+print("examples")
 # Write 3 examples that result in True and 3 that result in False.
+print(2 > 4)
+print(4 != 4)
+print(5 > 4 * 4)
+
+print(7 > 3)
+print(4 == 4)
+print(9 * 3 != 4)
 
 # Create a simple grade-checking condition:
 
