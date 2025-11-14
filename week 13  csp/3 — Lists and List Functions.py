@@ -21,10 +21,13 @@ numbers.sort()
 print(numbers)
 numbers.append(6)
 numbers.extend([10,11,12,13,14]) #faster method  of appending
+
+#inserting a num at specific position
+numbers.insert(2,10)
 print(numbers)
 
 numbers.extend(list(range(15,515)))
-numbers.extend(list(range(300,1900)))
+#numbers.extend(list(range(300,1900)))
 print(numbers[0])         # apple
 print(numbers[0:])
 # Practice Problems:
@@ -37,6 +40,23 @@ print(food)
 print(food[1:2])
 
 print(food[4:])
+
+new_list= ['a', 'b', 'c']
+print(new_list)
+new_list.append(['d'])
+print(new_list)
+#removing an item from list
+removed_item=new_list.pop()
+print(removed_item) #d
+print(new_list)
+removing_second_letter= new_list.pop(  2)
+print(removing_second_letter)
+import numbers
+randomli= randomed(range(1,1000),10)
+print(randomli)
+print(sorted(numbers))
+
+
 # Print the second and last item.
 
 # Add a new item using .append().
