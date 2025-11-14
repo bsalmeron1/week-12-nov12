@@ -16,15 +16,27 @@ print(my_list)
 my_list.pop(1)
 print(my_list)
 
-numbers = [3, 1, 4, 2]
+numbers = [1, 2, 3, 4, 5]
 numbers.sort()
 print(numbers)
+numbers.append(6)
+numbers.extend([10,11,12,13,14]) #faster method  of appending
+print(numbers)
 
-
+numbers.extend(list(range(15,515)))
+numbers.extend(list(range(300,1900)))
+print(numbers[0])         # apple
+print(numbers[0:])
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
+food= ['popeyes', 'deer cartilage', 'baboon placenta', 'orangutang calf', 'tacos']
+print(food)
 
+
+print(food[1:2])
+
+print(food[4:])
 # Print the second and last item.
 
 # Add a new item using .append().
